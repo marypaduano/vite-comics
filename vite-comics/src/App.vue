@@ -1,13 +1,27 @@
-<script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+<script>
+  import AppHeader from './components/AppHeader.vue'
+
+
+export default {
+  components: {
+    AppHeader,
+  }
+}
+
 </script>
 
 <template>
-  <div>
+  <header>
+    <AppHeader />
+  </header>
+  <main>
+
+  </main>
+  <footer>
     
-  </div>
+  </footer>
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use './style/general.scss';
 </style>
