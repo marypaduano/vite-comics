@@ -20,6 +20,7 @@ export default {
     color: white;
     font-weight: 900;
     padding: 30px 0;
+    width: 100vw;
 }
 
 

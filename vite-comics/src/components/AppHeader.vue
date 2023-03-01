@@ -31,7 +31,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1024px;
     padding: 30px 0;
 }
 
