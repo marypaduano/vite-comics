@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="container">          
+        <div class="container">
             <img src="/img/dc-logo.png" width="85px" alt="">
             <nav class="main-menu">
                 <ul>
@@ -21,9 +21,8 @@
 </template>
   
 <script>
-export default {
 
-}
+
 </script>
   
 <style lang="scss" scoped>
@@ -36,6 +35,7 @@ export default {
 
 ul {
     display: flex;
+
     .menu-item {
         padding: 0 15px;
         font-size: 12px;
