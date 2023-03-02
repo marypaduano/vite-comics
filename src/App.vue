@@ -4,6 +4,7 @@
   import MainApp from './components/MainApp.vue'
   import NavFooter from './components/NavFooter.vue'
   import FooterApp from './components/FooterApp.vue'
+  import HeroApp from './components/HeroApp.vue'
 
 
 export default {
@@ -13,6 +14,7 @@ export default {
     MainApp,
     NavFooter,
     FooterApp,
+    HeroApp,
 
   }
 }
@@ -24,6 +26,7 @@ export default {
     <AppHeader />
   </header>
   <main>
+    <HeroApp />
     <MainContent />
     <MainApp />
 

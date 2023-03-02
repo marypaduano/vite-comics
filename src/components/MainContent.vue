@@ -6,7 +6,10 @@
                     <img :src="el.thumb" alt="">
                     <span class="card_series">{{ el.series }}</span>
                 </li>
-            </ul>
+            </ul>            
+        </div>
+        <div class="load">
+            <button class="load-more">load more</button>
         </div>
     </main>
 </template>
@@ -100,8 +103,8 @@ export default {
 .content {
     background-color: black;
     color: white;
-    padding: 50px 0;
-
+    padding-bottom: 50px;
+    text-transform: uppercase;
 
     .grid {
         display: grid;
@@ -124,7 +127,21 @@ export default {
 }
 
 .card_series {
-    text-transform: uppercase;
-    font-size: 10px;
+    font-size: 11px;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+    .load-more{
+        text-transform: uppercase;
+        padding: 8px 25px;
+        background-color: rgb(2, 130, 249);
+        color: white;
+        font-weight: 600;
+    }
+    
 }
 </style>
